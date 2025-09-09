@@ -68,7 +68,7 @@
             </div>
           </div>
           <!-- navbar center -->
-          <div class="navbar-center hidden lg:flex">
+          <div class="navbar-center hidden lg:flex lg:mr-[15px]">
             <ul class="menu menu-horizontal text-[16px] px-1 gap-3">
               <li class="font-extrabold"><a href="">Home</a></li>
               <li><a href="">Services</a></li>
@@ -81,16 +81,18 @@
           <div class="navbar-end">
             <div class="flex">
               <!-- medium device -->
-              <div class="hidden md:flex gap-4 justify-center items-center">
-                <div>
+              <div
+                class="hidden md:flex gap-4 justify-center items-center w-[280px]"
+              >
+                <div class="">
                   <img class="w-[40px]" src="./assets/Frame 2.png" alt="" />
                 </div>
-                <div>
+                <div class="">
                   <img class="w-[40px]" src="./assets/Frame 3.png" alt="" />
                 </div>
-                <div class="w-[160px] lg:w-full">
+                <div class="">
                   <button
-                    class="flex gap-[5px] lg:gap-[2px] xl:gap-[5px] text-[16px] justify-center items-center font-extrabold py-[8px] px-3 rounded-full bg-[#ABEF5F] hover:bg-slate-300 duration-300"
+                    class="flex gap-[5px] xl:gap-[5px] text-[16px] justify-center items-center font-extrabold py-[8px] px-3 rounded-full bg-[#ABEF5F] hover:bg-slate-300 duration-300 w-[160px]"
                   >
                     Book Consult
                     <img
@@ -101,11 +103,13 @@
                   </button>
                 </div>
               </div>
-              <!-- small medium device menubar -->
-              <div class="flex items-center mr-[1px] lg:hidden">
+              <!-- small and medium device menubar -->
+              <div class="flex items-center mr-[1px] lg:hidden ml-1">
                 <div class="dropdown dropdown-end">
                   <div tabindex="0" role="button" class="">
-                    <i class="fa-solid fa-bars text-[16px] py-[9px] px-[10px] border border-solid rounded-full"></i>
+                    <i
+                      class="fa-solid fa-bars text-[16px] md:text-[19px] py-[9px] px-[11px] border border-solid rounded-full"
+                    ></i>
                   </div>
                   <ul
                     tabindex="0"
