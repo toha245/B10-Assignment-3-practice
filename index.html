@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
       rel="stylesheet"
     />
     <!-- font awesome cdn -->
@@ -30,8 +30,8 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
     <style>
-      .font-lato {
-        font-family: "Lato", sans-serif;
+      .font-manrope {
+        font-family: "Manrope", sans-serif;
       }
     </style>
     <script>
@@ -48,5 +48,92 @@
       };
     </script>
   </head>
-  <body></body>
+  <body class="font-manrope">
+    <header class="w-[97%] mx-auto">
+      <!-- start navbar section -->
+      <section class="container mx-auto mt-3 mb-14">
+        <div class="navbar bg-base-100">
+          <div class="navbar-start mr-0 ml-0">
+            <div class="flex gap-[8px] justify-center items-center">
+              <img
+                class="w-[32px] h-[32px] mt-[3px]"
+                src="./assets/arrow-up-right-01.png"
+                alt=""
+              />
+              <h2
+                class="text-[26px] lg:text-[30px] font-extrabold text-[#212121]"
+              >
+                Rinterio
+              </h2>
+            </div>
+          </div>
+          <!-- navbar center -->
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal text-[16px] px-1 gap-3">
+              <li class="font-extrabold"><a href="">Home</a></li>
+              <li><a href="">Services</a></li>
+              <li><a href="">Portfolio</a></li>
+              <li><a href="">Blogs</a></li>
+              <li><a href="">Contact Us</a></li>
+            </ul>
+          </div>
+          <!-- navbar end -->
+          <div class="navbar-end">
+            <div class="flex">
+              <!-- medium device -->
+              <div class="hidden md:flex gap-4 justify-center items-center">
+                <div>
+                  <img class="w-[40px]" src="./assets/Frame 2.png" alt="" />
+                </div>
+                <div>
+                  <img class="w-[40px]" src="./assets/Frame 3.png" alt="" />
+                </div>
+                <div class="w-[160px] lg:w-full">
+                  <button
+                    class="flex gap-[5px] lg:gap-[2px] xl:gap-[5px] text-[16px] justify-center items-center font-extrabold py-[8px] px-3 rounded-full bg-[#ABEF5F]"
+                  >
+                    Book Consult
+                    <img
+                      class="w-[18px] h-[18px]"
+                      src="./assets/arrow-up-right-02.png"
+                      alt=""
+                    />
+                  </button>
+                </div>
+              </div>
+              <!-- small medium device menubar -->
+              <div class="flex items-center mr-[1px] lg:hidden">
+                <div class="dropdown dropdown-end">
+                  <div tabindex="0" role="button" class="">
+                    <img class="w-[40px] hover:bg-slate-400" src="/assets/Frame 6.png" alt="" />
+                  </div>
+                  <ul
+                    tabindex="0"
+                    class="dropdown-content menu bg-base-100 rounded-box z-[1] w-32 md:w-36 p-2 shadow"
+                  >
+                    <li class="hover:bg-red-400 p-1">
+                      <a href="#home">Home</a>
+                    </li>
+                    <li class="hover:bg-red-400 p-1">
+                      <a href="#about">Services</a>
+                    </li>
+                    <li class="hover:bg-red-400 p-1">
+                      <a href="#shop">Portfolio</a>
+                    </li>
+                    <li class="hover:bg-red-400 p-1">
+                      <a href="#all fruits">Blogs</a>
+                    </li>
+                    <li class="hover:bg-red-400 p-1">
+                      <a href="#support">Contact Us</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end navbar section -->
+    </header>
+  </body>
 </html>
