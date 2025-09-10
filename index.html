@@ -51,7 +51,7 @@
   <body class="font-manrope">
     <header class="w-[97%] mx-auto">
       <!-- start navbar section -->
-      <section class="container mx-auto mt-3 mb-14">
+      <section class="container mx-auto mt-3 mb-10">
         <div class="navbar bg-base-100">
           <div class="navbar-start mr-0 ml-0">
             <div class="flex gap-[8px] justify-center items-center">
@@ -71,10 +71,10 @@
           <div class="navbar-center hidden lg:flex lg:mr-[15px]">
             <ul class="menu menu-horizontal text-[16px] px-1 gap-3">
               <li class="font-extrabold"><a href="">Home</a></li>
-              <li><a href="">Services</a></li>
-              <li><a href="">Portfolio</a></li>
-              <li><a href="">Blogs</a></li>
-              <li><a href="">Contact Us</a></li>
+              <li class="lg:text-[#737373]"><a href="">Services</a></li>
+              <li class="lg:text-[#737373]"><a href="">Portfolio</a></li>
+              <li class="lg:text-[#737373]"><a href="">Blogs</a></li>
+              <li class="lg:text-[#737373]"><a href="">Contact Us</a></li>
             </ul>
           </div>
           <!-- navbar end -->
@@ -104,7 +104,9 @@
                 </div>
               </div>
               <!-- small and medium device menubar -->
-              <div class="flex items-center mr-[1px] lg:hidden ml-1">
+              <div
+                class="flex justify-center items-center mr-[1px] lg:hidden ml-1"
+              >
                 <div class="dropdown dropdown-end">
                   <div tabindex="0" role="button" class="">
                     <i
@@ -138,6 +140,35 @@
         </div>
       </section>
       <!-- end navbar section -->
+      <!-- start 1st section -->
+      <section class="container mx-auto mt-3 mb-16">
+        <div class="flex flex-col justify-center items-center text-center">
+          <!-- image part -->
+          <div class="mb-4 lg:mb-6">
+            <img class="mx-auto w-5/6 lg:w-full" src="./assets/banner.png" alt="" />
+          </div>
+          <!-- content part -->
+          <div class="">
+            <h1
+              class="mx-auto w-[99%] md:w-5/6 text-[28px] md:text-[32px] lg:text-[50px] font-extrabold leading-tight mb-4 lg:mb-6"
+            >
+              A barn house of this design has a striking appearance
+            </h1>
+            <p
+              class="mx-auto w-[100%] md:w-4/6 text-[#494949] md:text-[16px] mb-[20px] lg:mb-8"
+            >
+              The barn house captivates with its blend of rustic charm and
+              modern sophistication, featuring weathered wood, sleek metal
+              accents, and large windows that flood the space with natural
+              light.
+            </p>
+            <button class="text-[20px] font-bold">
+              View Details <img src="./assets/arrow-up-right-01.png" alt="" />
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- end 1st section -->
     </header>
   </body>
 </html>
