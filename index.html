@@ -194,16 +194,15 @@
         >
           <!-- container of this section -->
           <div
-            class="flex flex-col lg:flex-row gap-9 lg:gap-12 justify-center items-center"
+            class="flex flex-col lg:flex-row gap-9 lg:gap-12 justify-center items-stretch"
           >
             <!-- flex flex-col lg:flex-row gap-9 lg:gap-12 justify-center items-center -->
             <!-- content part -->
             <div
-              class="lg:w-[50%] flex flex-col justify-center items-center lg:justify-start lg:items-start lg:text-left"
+              class="lg:w-[50%] h-full flex flex-col justify-center items-center lg:justify-start lg:items-start lg:text-left"
             >
-              <!-- lg:w-[50%] flex flex-col justify-center items-center  lg:justify-start lg:items-start lg:text-left -->
               <div
-                class="flex flex-col justify-center items-center text-center lg:justify-start lg:items-start lg:text-left"
+                class="lg:flex-1 flex flex-col justify-center items-center text-center lg:justify-start lg:items-start lg:text-left"
               >
                 <button
                   class="hover:bg-slate-200 duration-300 font-bold text-[#494949] bg-[#fbfafa] py-1 px-3 mb-4 rounded-full"
@@ -225,7 +224,9 @@
                 </p>
               </div>
               <!-- start commercial and residential part -->
-              <div class="flex flex-col md:flex-row lg:flex-col gap-4 md:gap-8">
+              <div
+                class="lg:flex-1 flex flex-col md:flex-row lg:flex-col gap-4 md:gap-8"
+              >
                 <!-- commercial part -->
                 <div
                   class="flex gap-5 lg:gap-6 p-5 lg:p-6 bg-[#FFFFFF] items-center rounded-2xl"
@@ -270,8 +271,12 @@
             </div>
 
             <!-- image part -->
-            <div class="w-full lg:w-[50%]">
-              <img class="w-full" src="./assets/Rectangle.png" alt="" />
+            <div class="w-full lg:w-[50%] h-full">
+              <img
+                class="w-full object-cover"
+                src="./assets/Rectangle.png"
+                alt=""
+              />
             </div>
           </div>
           <div class="hidden lg:block absolute top-[8%] right-[93%]">
@@ -477,7 +482,9 @@
             class="grid lg:items-stretch grid-cols-1 md:grid-cols-4 md:grid-rows-4 lg:grid-cols-12 lg:grid-rows-2 gap-4 md:gap-5 lg:gap-6"
           >
             <!-- card 1 -->
-            <div class="md:col-span-4 h-fit lg:col-span-8 rounded-2xl border border-solid border-[#E9E9E9]">
+            <div
+              class="md:col-span-4 h-fit lg:col-span-8 rounded-2xl border border-solid border-[#E9E9E9]"
+            >
               <div
                 class="w-full grid grid-cols-1 md:grid-cols-12 gap-6 lg:gap-4 rounded-2xl bg-[#FAFAFA] opacity-90 p-5 lg:p-6"
               >
@@ -499,16 +506,17 @@
                     modern. The barn house captivates with its blend of rustic
                     charm and modern .
                   </p>
-                  <button
-                    class="text-[16px] font-bold flex justify-center items-center gap-[5px]"
-                  >
-                    View Details
-                    <img
-                      class="w-[22px] h-[22px]"
-                      src="./assets/arrow-up-right-01.png"
-                      alt=""
-                    />
-                  </button>
+                  <a href=""
+                    ><button
+                      class="hover:bg-[#c8d6e4] duration-300 rounded-full p-2 text-[16px] font-bold flex justify-center items-center gap-[5px]"
+                    >
+                      View Details
+                      <img
+                        class="w-[22px] h-[22px]"
+                        src="./assets/arrow-up-right-01.png"
+                        alt=""
+                      /></button
+                  ></a>
                 </div>
               </div>
             </div>
@@ -533,10 +541,10 @@
               />
               <div class="">
                 <img
-                class="block lg:hidden w-full  md:h-[179px] object-cover rounded-2xl"
-                src="./assets/img5.png"
-                alt=""
-              />
+                  class="block lg:hidden w-full md:h-[179px] object-cover rounded-2xl"
+                  src="./assets/img5.png"
+                  alt=""
+                />
               </div>
             </div>
             <!-- card 4 -->
@@ -558,23 +566,27 @@
                     Commercial
                   </h4>
                   <p class="text-[16px] font-medium text-[#737373] mb-6">
-                    The barn house captivates with its blend of rustic charm and The barn and modern. The barn and modern.
+                    The barn house captivates with its blend of rustic charm and
+                    The barn and modern. The barn and modern.
                   </p>
-                  <button
-                    class="text-[16px] font-bold flex justify-center items-center gap-[5px]"
-                  >
-                    View Details
-                    <img
-                      class="w-[22px] h-[22px]"
-                      src="./assets/arrow-up-right-01.png"
-                      alt=""
-                    />
-                  </button>
+                  <a href=""
+                    ><button
+                      class="hover:bg-[#c8d6e4] duration-300 rounded-full p-2 text-[16px] font-bold flex justify-center items-center gap-[5px]"
+                    >
+                      View Details
+                      <img
+                        class="w-[22px] h-[22px]"
+                        src="./assets/arrow-up-right-01.png"
+                        alt=""
+                      /></button
+                  ></a>
                 </div>
               </div>
             </div>
             <!-- card 5 -->
-            <div class="block md:col-span-2 p-5 md:p-6 lg:hidden bg-[#FAFAFA] rounded-2xl border border-solid border-[#E9E9E9]">
+            <div
+              class="block md:col-span-2 p-5 md:p-6 lg:hidden bg-[#FAFAFA] rounded-2xl border border-solid border-[#E9E9E9]"
+            >
               <img
                 class="w-full md:h-[179px] object-cover rounded-2xl"
                 src="./assets/img3.png"
@@ -582,9 +594,11 @@
               />
             </div>
             <!-- card 6 -->
-            <div class="md:col-span-2 lg:col-span-3 p-5 md:p-6 bg-[#FAFAFA] rounded-2xl border border-solid border-[#E9E9E9]">
+            <div
+              class="md:col-span-2 lg:col-span-3 p-5 md:p-6 bg-[#FAFAFA] rounded-2xl border border-solid border-[#E9E9E9]"
+            >
               <img
-                class=" w-full md:h-[179px] object-cover rounded-2xl"
+                class="w-full md:h-[179px] object-cover rounded-2xl"
                 src="./assets/img5.png"
                 alt=""
               />
@@ -593,6 +607,7 @@
         </div>
       </section>
       <!-- end latest portfolio -->
+       
     </main>
   </body>
 </html>
